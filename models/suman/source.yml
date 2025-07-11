@@ -1,0 +1,20 @@
+version: 2
+sources:
+  - name: shared
+    database: "{{('dbt_db')}}"
+    schema: stg_layer
+
+    tables:
+      - name: STG_CUSTOMERS_DATA
+      - name: STG_ITEMS
+      - name: STG_ORDERS_DATA
+      - name: STG_PAYMENTS
+      - name: STG_PRODUCTS
+      - name: STG_STORES
+      - name: STG_SUPPLIES
+      - name: sample_macro
+      - name: EMPLOYEES_dynamic
+      - name: stg_sales
+
+
+
